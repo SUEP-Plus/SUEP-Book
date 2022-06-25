@@ -42,9 +42,9 @@
   * 高分
   * 刷绩点
   * 奖学金
-* <span style="color: grey">~~刷!~~</span>
-  * <span style="color: grey">~~网课~~</span>
-  * <span style="color: grey">~~高校体育~~</span>
+* 刷!🙅
+  * 网课🙅
+  * 高校体育🙅
 * 润!
   * 出国指南
 * 考研指南
