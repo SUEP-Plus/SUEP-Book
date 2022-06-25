@@ -2,5 +2,6 @@
   "root": "./docs",
   "title": "上海电力大学速通手册",
   "author": "上海电力大学速通手册编委会",
+  "plugins": ["toggle-chapters"],
   "language": "Zh_CN"
 }
