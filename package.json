@@ -20,5 +20,8 @@
   "homepage": "https://github.com/SUEP-Plus/SUEP-Book#readme",
   "devDependencies": {
     "honkit": "^3.7.4"
+  },
+  "dependencies": {
+    "honkit-plugin-toggle-chapters": "^0.0.1"
   }
 }
