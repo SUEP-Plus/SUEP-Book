@@ -13,6 +13,20 @@
 如果有任何建议或意见，请通过github issue的方式提交，投稿请投递至邮箱(待定)，通过审核和修订后的每一章（经本人同意的情况下）将会标明作者
 
 ## 快速开始
+点击右上角fork本仓库
+随后git clone你fork后的仓库
+
+```shell
+git clone xxxx/SUEP-Book //xxxx替换成你自己的用户前缀
+```
+参考文件结构进行放置你所写的内容
+
+标题即为你的文件名字
+例如 新生入学指南.md
+
+参考其他文件的书写方式进行书写
+例如 ([https://github.com/SUEP-Plus/SUEP-Book/docs/README.md](https://github.com/SUEP-Plus/SUEP-Book/blob/main/docs/README.md))
+
 ```shell
 npm install
 
@@ -21,3 +35,6 @@ npm run start
 # build
 npm run build
 ```
+
+## 文件结构TODO
+
