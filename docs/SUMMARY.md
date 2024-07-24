@@ -6,7 +6,7 @@
 * [声明](Prologue/声明.md)
 
 ## 入学之前
- * 学校介绍
+ * [学校介绍](BeforeAdmission/学校介绍.md)
  * [如何选择专业](BeforeAdmission/如何选择专业.md)
  * 填志愿指南
 
