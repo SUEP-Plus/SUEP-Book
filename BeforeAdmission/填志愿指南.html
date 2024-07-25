@@ -3,7 +3,7 @@
 <html lang="Zh_CN" >
     <head>
         <meta charset="UTF-8">
-        <title>开发者须知 · 上海电力大学速通手册</title>
+        <title>填志愿指南 · 上海电力大学速通手册</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 3.7.4">
@@ -60,10 +60,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="声明.html" />
+    <link rel="next" href="../AdmissionGuide/0day.html" />
     
     
-    <link rel="prev" href="../" />
+    <link rel="prev" href="如何选择专业.html" />
     
 
     </head>
@@ -107,9 +107,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="开发者文档.html">
+        <li class="chapter " data-level="1.2" data-path="../Prologue/开发者文档.html">
             
-                <a href="开发者文档.html">
+                <a href="../Prologue/开发者文档.html">
             
                     
                     开发者须知
@@ -120,9 +120,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="声明.html">
+        <li class="chapter " data-level="1.3" data-path="../Prologue/声明.html">
             
-                <a href="声明.html">
+                <a href="../Prologue/声明.html">
             
                     
                     声明
@@ -140,9 +140,9 @@
         
         
     
-        <li class="chapter " data-level="2.1" data-path="../BeforeAdmission/学校介绍.html">
+        <li class="chapter " data-level="2.1" data-path="学校介绍.html">
             
-                <a href="../BeforeAdmission/学校介绍.html">
+                <a href="学校介绍.html">
             
                     
                     学校介绍
@@ -153,9 +153,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.2" data-path="../BeforeAdmission/如何选择专业.html">
+        <li class="chapter " data-level="2.2" data-path="如何选择专业.html">
             
-                <a href="../BeforeAdmission/如何选择专业.html">
+                <a href="如何选择专业.html">
             
                     
                     如何选择专业
@@ -166,9 +166,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.3" data-path="../BeforeAdmission/填志愿指南.html">
+        <li class="chapter active" data-level="2.3" data-path="填志愿指南.html">
             
-                <a href="../BeforeAdmission/填志愿指南.html">
+                <a href="填志愿指南.html">
             
                     
                     填志愿指南
@@ -1074,7 +1074,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >开发者须知</a>
+        <a href=".." >填志愿指南</a>
     </h1>
 </div>
 
@@ -1089,51 +1089,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="开发者须知">开发者须知</h1>
-<h2 id="commit-规范">commit 规范</h2>
-<p>为保证 commit 的可追溯性和统一性，要求所有开发者 commit message 遵循同一套规约</p>
-<p>前缀请遵循如下规则(套用软件开发过程)</p>
-<ul>
-<li>修订: fix，修复</li>
-<li>内容新增: feat，新增</li>
-<li>内容更新；update，内容新增</li>
-<li>章节结构调整: refactor</li>
-<li>目录、内容风格变更: style</li>
-<li>流水线变更: ci</li>
-</ul>
-<p>例</p>
-<p>纠正错别字和语句不通顺时：<code>fix: typo correction in chapter n</code>,“修复：第n章节的拼写修复”</p>
-<p>新增食堂攻略时：<code>feat: third canteen food guide</code>,<code>update: third canteen food guide</code>,“新增：第三食堂美食指南”</p>
-<h2 id="分支与合并请求">分支与合并请求</h2>
-<p>提交代码时，<span style="color: red">禁止</span>在主分支上直接 Push ，请单独拉取分支提交 merge request 合并</p>
-<p>分支名称也请遵循如下规范</p>
-<ul>
-<li>修订: fix</li>
-<li>内容新增: feature</li>
-<li>章节结构调整: refactor</li>
-<li>流水线变更: ci</li>
-</ul>
-<p>例</p>
-<p>纠正错别字和语句不通顺时：<code>fix-typo-correction</code>，“修复-错别字“</p>
-<p>新增食堂攻略时：<code>feature-third-canteen-guide</code>，“更新-第三食堂内容”</p>
-<p>相比于 commit ，更加简短</p>
-<h2 id="目录结构">目录结构</h2>
-<pre>
-&gt; .github
-    &gt; workflows         // ci
-&gt; docs                  // 所有文档，子文件夹与目录章节一一对应
-    &gt; Prologue          // 序章
-    &gt; AdmissionGuide    // 入学之前
-    &gt; BeforeAdmission   // 入学指南
-    &gt; HalfCooked        // 5分熟
-    &gt; Veteran           // 老生入门
-    &gt; static            // 静态资源文件
-</pre>
-
-<h2 id="cicd流程">CI/CD流程</h2>
-<p><a href="https://github.com/SUEP-Plus/SUEP-Book/actions" target="_blank">Github actions</a>
-分支 gh-pages 为静态部署的页面文件</p>
-
+                                
                                 
                                 </section>
                             
@@ -1160,12 +1116,12 @@
 
             
                 
-                <a href="../" class="navigation navigation-prev " aria-label="Previous page: 写在前面">
+                <a href="如何选择专业.html" class="navigation navigation-prev " aria-label="Previous page: 如何选择专业">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="声明.html" class="navigation navigation-next " aria-label="Next page: 声明">
+                <a href="../AdmissionGuide/0day.html" class="navigation navigation-next " aria-label="Next page: 第0天 欢迎来到上海电力大学">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1176,7 +1132,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"开发者须知","level":"1.2","depth":1,"next":{"title":"声明","level":"1.3","depth":1,"path":"Prologue/声明.md","ref":"Prologue/声明.md","articles":[]},"previous":{"title":"写在前面","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"root":"./docs","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"上海电力大学速通手册编委会","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"上海电力大学速通手册","language":"Zh_CN","gitbook":"*"},"file":{"path":"Prologue/开发者文档.md","mtime":"2024-07-25T14:40:43.776Z","type":"markdown"},"gitbook":{"version":"3.7.4","time":"2024-07-25T14:40:49.546Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"填志愿指南","level":"2.3","depth":1,"next":{"title":"第0天 欢迎来到上海电力大学","level":"3.1","depth":1,"path":"AdmissionGuide/0day.md","ref":"AdmissionGuide/0day.md","articles":[]},"previous":{"title":"如何选择专业","level":"2.2","depth":1,"path":"BeforeAdmission/如何选择专业.md","ref":"BeforeAdmission/如何选择专业.md","articles":[]},"dir":"neutral"},"config":{"plugins":["toggle-chapters"],"root":"./docs","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"上海电力大学速通手册编委会","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"上海电力大学速通手册","language":"Zh_CN","gitbook":"*"},"file":{"path":"BeforeAdmission/填志愿指南.md","mtime":"2024-07-25T14:40:43.776Z","type":"markdown"},"gitbook":{"version":"3.7.4","time":"2024-07-25T14:40:49.546Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
