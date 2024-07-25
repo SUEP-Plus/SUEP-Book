@@ -8,7 +8,7 @@
 ## 入学之前
  * [学校介绍](BeforeAdmission/学校介绍.md)
  * [如何选择专业](BeforeAdmission/如何选择专业.md)
- * 填志愿指南
+ * [填志愿指南](BeforeAdmission/填志愿指南.md)
 
 ## 入学指南
 * [第0天 欢迎来到上海电力大学](AdmissionGuide/0day.md)
